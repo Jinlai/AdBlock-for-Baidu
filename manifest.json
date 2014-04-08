@@ -1,0 +1,27 @@
+{
+	// Required
+	"manifest_version": 2,
+	"name": "extension for block Ads of Baidu",
+	"version": "0.0.1",
+
+	// Recommended	
+	"description": "extension for block Ads of Baidu.",
+	"icons": {
+		//"16": "/images/icons/16.png",
+		//"48": "/images/icons/48.png"
+	},
+	
+	"browser_action": {
+		"default_icon": {
+			"19": "/images/icons/19.png",
+			"38": "/images/icons/38.png"
+		},
+		"default_title": "extension for block Ads of Baidu",
+		"default_popup": "/html/popup.html"
+	},
+	"background": {
+		"page": "/html/background.html",
+		"persistent": false
+	},
+	"permissions": ["tabs","http://*/*","https://*/*"]
+}
