@@ -1,14 +1,14 @@
 {
 	// Required
 	"manifest_version": 2,
-	"name": "extension for block Ads of Baidu",
+	"name": "AdBlock for Baidu",
 	"version": "0.0.1",
 
 	// Recommended	
-	"description": "extension for block Ads of Baidu.",
+	"description": "an extension for chrome to block Ads of Baidu",
 	"icons": {
-		//"16": "/images/icons/16.png",
-		//"48": "/images/icons/48.png"
+		"16": "/images/icons/16.png",
+		"48": "/images/icons/48.png"
 	},
 	
 	"browser_action": {
@@ -16,7 +16,7 @@
 			"19": "/images/icons/19.png",
 			"38": "/images/icons/38.png"
 		},
-		"default_title": "extension for block Ads of Baidu",
+		"default_title": "AdBlock for Baidu",
 		"default_popup": "/html/popup.html"
 	},
 	"background": {
